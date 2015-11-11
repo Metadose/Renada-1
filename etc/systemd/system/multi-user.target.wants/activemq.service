@@ -1,0 +1,13 @@
+[Unit]
+Description=ActiveMQ Server
+
+[Service]
+Type=forking
+# The PID file is optional, but recommended in the manpage
+# "so that systemd can identify the main process of the daemon"
+PIDFile=/var/run/activemq.pid
+ExecStart=/etc/init.d/activemq start \ --daemon --pidfile /var/run/activemq.pid
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
