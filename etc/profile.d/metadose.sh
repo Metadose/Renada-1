@@ -1,0 +1,1 @@
+export RENADA_HOME=/srv/git/Renada-1
