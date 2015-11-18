@@ -71,15 +71,13 @@
                connectionTimeout="20000"
                redirectPort="8443" />
 			   
-	<Connector port="8443" SSLEnabled="true" scheme="https" 
-		secure="true" clientAuth="false" 
+	<Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
+               SSLEnabled="true" scheme="https" secure="true"
+               clientAuth="false" sslProtocol="TLS"
 		keystoreFile="/etc/ssl/certs/StartSSL.p12" 
-		keystoreType="PKCS12" keystorePass="_34" 
+		keystoreType="PKCS12" 
+		keystorePass="_34" 
 	/>
-			   
-	<!-- <Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
-               maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-               clientAuth="false" sslProtocol="TLS" /> -->
 			   
     <!-- A "Connector" using the shared thread pool-->
     <!--
