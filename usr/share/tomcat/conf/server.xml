@@ -69,15 +69,15 @@
     -->
     <Connector port="8080" protocol="HTTP/1.1"
                connectionTimeout="20000"
-               redirectPort="443" />
+               redirectPort="8443" />
 			   
-	<Connector port="443" SSLEnabled="true" scheme="https" 
+	<Connector port="8443" SSLEnabled="true" scheme="https" 
 		secure="true" clientAuth="false" sslProtocol="TLS" 
 		keystoreFile="/etc/ssl/certs/StartSSL.p12" 
 		keystoreType="PKCS12" keystorePass="_34" 
 	/>
 			   
-	<!-- <Connector port="443" protocol="org.apache.coyote.http11.Http11Protocol"
+	<!-- <Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
                clientAuth="false" sslProtocol="TLS" /> -->
 			   
