@@ -72,7 +72,7 @@
                redirectPort="8443" />
 			   
 	<Connector port="8443" SSLEnabled="true" scheme="https" 
-		secure="true" clientAuth="false" sslProtocol="TLS" 
+		secure="true" clientAuth="false" 
 		keystoreFile="/etc/ssl/certs/StartSSL.p12" 
 		keystoreType="PKCS12" keystorePass="_34" 
 	/>
