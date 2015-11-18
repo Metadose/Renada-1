@@ -124,9 +124,19 @@
       <Host name="localhost"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
 			
-			<Context path="" docBase="manager">
-				<!-- Default set of monitored resources -->
+			<!-- For nginx reverse proxy configuration -->
+			<!-- <Context path="" docBase="manager">
 				<WatchedResource>WEB-INF/web.xml</WatchedResource>
+			</Context> -->
+			
+			<Context path="/manager" debug="0" privileged="true">
+				<Valve className="org.apache.catalina.valves.RemoteAddrValve" 
+						allow="127.0.0.1"/>
+
+				<!-- Link to the user database we will get roles from. -->
+				<!-- <ResourceLink name="users" global="UserDatabase" 
+					type="org.apache.catalina.UserDatabase"/> -->
+				
 			</Context>
 
         <!-- SingleSignOn valve, share authentication between web applications
