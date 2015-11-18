@@ -129,13 +129,13 @@
 				<WatchedResource>WEB-INF/web.xml</WatchedResource>
 			</Context> -->
 			
-			<Context path="/manager" docBase="manager" debug="0" privileged="true">
-				<Valve className="org.apache.catalina.valves.RemoteAddrValve" 
-						allow="127.0.0.1,122.3.168.18"/>
+			<Context path="/6yhn1qaz3edc" docBase="manager" debug="0" privileged="true">
+				<!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve" 
+						allow="127.0.0.1,122.3.168.18"/> -->
 
 				<!-- Link to the user database we will get roles from. -->
-				<ResourceLink name="users" global="UserDatabase" 
-					type="org.apache.catalina.UserDatabase"/>
+				<!-- <ResourceLink name="users" global="UserDatabase" 
+					type="org.apache.catalina.UserDatabase"/> -->
 				
 			</Context>
 
