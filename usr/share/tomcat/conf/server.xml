@@ -131,7 +131,7 @@
 			
 			<Context path="/manager" debug="0" privileged="true">
 				<Valve className="org.apache.catalina.valves.RemoteAddrValve" 
-						allow="127.0.0.1"/>
+						allow="127.0.0.1,122.3.168.18"/>
 
 				<!-- Link to the user database we will get roles from. -->
 				<ResourceLink name="users" global="UserDatabase" 
