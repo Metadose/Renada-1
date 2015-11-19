@@ -19,13 +19,13 @@ umask 077
  
 start() {
        echo -n $"Starting Nginx: "
-       daemon /etc/init.d/nginxstart.sh
+       sh /etc/init.d/nginxstart.sh
        echo
        return $RETVAL
 }
 stop() {
        echo -n $"Shutting down Nginx: "
-	   daemon /etc/init.d/nginxstop.sh
+	   sh /etc/init.d/nginxstop.sh
        echo
        return $RETVAL
 }
