@@ -71,13 +71,14 @@
                connectionTimeout="20000"
                redirectPort="8443" />
 			   
-	<Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
-               SSLEnabled="true" scheme="https" secure="true"
-               clientAuth="false" sslProtocol="TLS"
-		keystoreFile="/etc/ssl/certs/StartSSL.p12" 
-		keystoreType="PKCS12" 
-		keystorePass="_34" 
+	<Connector
+		protocol="org.apache.coyote.http11.Http11NioProtocol"
+		port="8443" maxThreads="200"
+		scheme="https" secure="true" SSLEnabled="true"
+		keystoreFile="~/tomcat.keystore" keystorePass="_34"
+		clientAuth="false" sslProtocol="TLS"
 	/>
+	
 			   
     <!-- A "Connector" using the shared thread pool-->
     <!--
@@ -138,25 +139,20 @@
 				<WatchedResource>WEB-INF/web.xml</WatchedResource>
 			</Context> -->
 			
-			<Context path="/manager" docBase="manager" debug="0" privileged="true">
-				<Valve className="org.apache.catalina.valves.RemoteAddrValve" 
-						allow="127.0.0.1"/>
-
-				<!-- Link to the user database we will get roles from. -->
-				<!-- <ResourceLink name="users" global="UserDatabase" 
-					type="org.apache.catalina.UserDatabase"/> -->
+			<Context path="/pmsys" docBase="pmsys" privileged="true">
+				<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127.0.0.1"/>
 			</Context>
-
-			<Context path="/6yhn1qaz3edc" docBase="manager" debug="0" privileged="true">
-				<!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve" 
-						allow="127.0.0.1,122.3.168.18"/> -->
-
-				<!-- Link to the user database we will get roles from. -->
-				<!-- <ResourceLink name="users" global="UserDatabase" 
-					type="org.apache.catalina.UserDatabase"/> -->
-				
+	
+			<Context path="/manager" docBase="manager" privileged="true">
+				<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127.0.0.1"/>
 			</Context>
-
+	
+			<Context path="" docBase="pmsys">
+			</Context>
+	
+			<Context path="/6yhn1qaz3edc" docBase="manager">
+			</Context>
+	
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
         <!--
