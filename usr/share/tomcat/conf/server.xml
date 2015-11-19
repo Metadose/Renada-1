@@ -137,7 +137,11 @@
 			<!-- For nginx reverse proxy configuration -->
 			<!-- <Context path="" docBase="manager">
 				<WatchedResource>WEB-INF/web.xml</WatchedResource>
-			</Context> -->
+			</Context> -->			
+			
+			<Context path="" docBase="pmsys">
+				<WatchedResource>WEB-INF/web.xml</WatchedResource>
+			</Context>
 			
 			<Context path="/pmsys" docBase="pmsys" privileged="true">
 				<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127.0.0.1"/>
@@ -145,10 +149,7 @@
 	
 			<Context path="/manager" docBase="manager" privileged="true">
 				<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127.0.0.1"/>
-			</Context>
-	
-			<Context path="" docBase="pmsys">
-			</Context>
+			</Context>	
 	
 			<Context path="/6yhn1qaz3edc" docBase="manager">
 			</Context>
