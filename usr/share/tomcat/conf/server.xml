@@ -147,13 +147,6 @@
 				<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127.0.0.1"/>
 			</Context>
 	
-			<Context path="/manager" docBase="manager" privileged="true">
-				<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127.0.0.1"/>
-			</Context>	
-	
-			<Context path="/6yhn1qaz3edc" docBase="manager">
-			</Context>
-	
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
         <!--
