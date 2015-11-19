@@ -17,7 +17,7 @@ ExecStop=/usr/libexec/tomcat/server stop
 SuccessExitStatus=143
 User=tomcat
 Group=tomcat
-Restart=on-abort
+Restart=on-failure
 
 
 [Install]
