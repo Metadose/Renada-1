@@ -142,10 +142,6 @@
 			<Context path="" docBase="pmsys">
 				<WatchedResource>WEB-INF/web.xml</WatchedResource>
 			</Context>
-			
-			<Context path="/pmsys" docBase="pmsys" privileged="true">
-				<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127.0.0.1"/>
-			</Context>
 	
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
