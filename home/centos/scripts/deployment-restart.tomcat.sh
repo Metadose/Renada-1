@@ -12,7 +12,7 @@ tomcatCurl=$(curl localhost:8080/manager)
 tomcatCurlResult=$(echo ${tomcatCurl})
 
 # If curl is not empty, sleep again.
-if [-n "$tomcatCurlResult"]
+if [ -n "$tomcatCurlResult" ]
 then
 	echo "Tomcat not yet ready. Sleeping again."
 	sleep 60s
