@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Force undeploy.
-sh ~/scripts/deployment/tomcat-force-undeploy.sh
-
 # Stop services.
 sh ~/scripts/deployment/stop-services.sh
 
-# Undeploy.
+# Force undeploy.
+sh ~/scripts/deployment/tomcat-force-undeploy.sh
+
+# Normal undeploy.
 sh ~/scripts/deployment/undeploy.sh
 
 # Clear all logs.
