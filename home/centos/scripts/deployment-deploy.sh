@@ -1,7 +1,4 @@
 #!/bin/bash
-sudo systemctl start tomcat
-echo "Started tomcat."
-
 cd $PRAC_DEV
 git pull
 echo "Repository updated."
