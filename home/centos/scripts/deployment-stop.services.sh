@@ -4,3 +4,9 @@ echo "Stopped nginx."
 
 sudo systemctl stop activemq
 echo "Stopped activemq."
+
+sudo systemctl stop mysqld
+echo "Stopped mysqld."
+
+sudo systemctl stop redis
+echo "Stopped redis."
