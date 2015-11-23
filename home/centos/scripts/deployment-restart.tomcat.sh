@@ -16,6 +16,7 @@ if [-n "$tomcatCurlResult"]
 then
 	echo "Tomcat not yet ready. Sleeping again."
 	sleep 60s
+fi
 	
 # By now, tomcat should be ready.
 echo "Removing /pmsys directory."
