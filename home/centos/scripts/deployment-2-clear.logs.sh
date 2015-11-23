@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo rm -rf $CMP_LOGS
 sudo rm -rf $TOMCAT_LOGS
 sudo mkdir $CMP_LOGS
