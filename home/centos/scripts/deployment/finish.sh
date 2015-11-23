@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start services.
-sh ~/scripts/deployment-start.services.sh
+sh ~/scripts/deployment/start-services.sh
 
 # Start the tomcat.
 sudo systemctl restart tomcat
