@@ -7,7 +7,7 @@ Type=forking
 # "so that systemd can identify the main process of the daemon"
 PIDFile=/var/run/activemq.pid
 ExecStart=/etc/init.d/activemq start \ --daemon --pidfile /var/run/activemq.pid
-Restart=always
+Restart=on-failure
 
 
 [Install]
