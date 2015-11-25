@@ -35,7 +35,8 @@ class BaseController(CementBaseController):
 
     @expose(hide=True)
     def default(self):
-        self.app.log.info('BaseController.default')
+        self.app.log.info('Backup Redis: python cli-backup.py redis-backup')
+        self.app.log.info('Backup MySQL: python cli-backup.py mysql-backup')
 
 
 # Redis controller.
@@ -101,9 +102,11 @@ class MySQLController(CementBaseController):
         # Get user inputs.
         self.app.log.info('Getting MySQL credentials...')
         print("User:")
-        user = input()
+        # user = input() Uncomment if python 3.x
+        user = raw_input()
         print("Password:")
-        password = input()
+		# password = input() Uncomment if python 3.x
+        password = raw_input()
 
         # Construct the file name and destination.
         self.app.log.info('Constructing file name and destination...')
