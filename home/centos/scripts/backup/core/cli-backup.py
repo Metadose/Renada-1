@@ -15,6 +15,8 @@ redis_backup_name = 'dump.rdb'
 mysql_host = 'localhost'
 mysql_db = 'mysql-1'
 mysql_backup_name = 'dump.sql'
+mysql_user = 'CHANGE_ME'
+mysql_password = 'CHANGE_ME'
 
 # Home.
 home_backup = '/home/centos/backup/'
@@ -100,13 +102,8 @@ class MySQLController(CementBaseController):
         self.app.log.info('MySQLController.backup')
 
         # Get user inputs.
-        self.app.log.info('Getting MySQL credentials...')
-        print("User:")
-        # user = input() Uncomment if python 3.x
-        user = raw_input()
-        print("Password:")
-		# password = input() Uncomment if python 3.x
-        password = raw_input()
+        user = mysql_user
+        password = mysql_password
 
         # Construct the file name and destination.
         self.app.log.info('Constructing file name and destination...')
