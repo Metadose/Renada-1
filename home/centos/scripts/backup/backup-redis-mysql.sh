@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory.
-cd /home/centos/scripts/backup/core
+cd ~/scripts/backup/core
 
 # Backup Redis.
 python cli-backup.py redis-backup
