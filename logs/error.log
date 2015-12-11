@@ -1,0 +1,95 @@
+2015/11/19 14:44:24 [emerg] 2188#0: invalid parameter "2400:cb00::/32" in /usr/local/nginx/conf/conf.d/nginx-proxy.conf:22
+2015/11/19 14:51:40 [error] 4571#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 122.3.168.18, server: cmp.razo.cebedo.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "cmp.razo.cebedo.com"
+2015/11/19 14:53:02 [notice] 4590#0: signal process started
+2015/11/19 14:53:28 [error] 4598#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: cmp.razo.cebedo.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "localhost"
+2015/11/19 15:17:51 [emerg] 4911#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/11/19 15:17:51 [emerg] 4911#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/11/19 15:17:51 [emerg] 4911#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/11/19 15:17:51 [emerg] 4911#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/11/19 15:17:51 [emerg] 4911#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/11/19 15:17:51 [emerg] 4911#0: still could not bind()
+2015/11/19 15:45:46 [notice] 5379#0: signal process started
+2015/11/19 16:48:01 [error] 5659#0: *258 connect() failed (111: Connection refused) while connecting to upstream, client: 122.3.168.18, server: cmp.razo.cebedo.com, request: "GET /auth/login HTTP/1.1", upstream: "http://127.0.0.1:8080/auth/login", host: "cmp.razo.cebedo.com"
+2015/11/19 17:14:37 [notice] 6520#0: signal process started
+2015/11/19 17:24:59 [notice] 7825#0: signal process started
+2015/11/19 17:24:59 [error] 7825#0: open() "/usr/local/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2015/11/19 17:27:43 [notice] 7941#0: signal process started
+2015/11/19 17:27:43 [error] 7941#0: open() "/usr/local/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2015/11/19 17:31:03 [notice] 8038#0: signal process started
+2015/11/19 17:31:03 [error] 8038#0: open() "/usr/local/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2015/11/20 17:54:04 [error] 8044#0: *232 connect() failed (111: Connection refused) while connecting to upstream, client: 104.152.209.238, server: cmp.razo.cebedo.com, request: "GET /muieblackcat HTTP/1.1", upstream: "http://127.0.0.1:8080/muieblackcat", host: "52.3.119.149"
+2015/11/20 17:54:04 [error] 8044#0: *234 connect() failed (111: Connection refused) while connecting to upstream, client: 104.152.209.238, server: cmp.razo.cebedo.com, request: "GET //phpMyAdmin/scripts/setup.php HTTP/1.1", upstream: "http://127.0.0.1:8080/phpMyAdmin/scripts/setup.php", host: "52.3.119.149"
+2015/11/20 17:54:04 [error] 8044#0: *236 connect() failed (111: Connection refused) while connecting to upstream, client: 104.152.209.238, server: cmp.razo.cebedo.com, request: "GET //phpmyadmin/scripts/setup.php HTTP/1.1", upstream: "http://127.0.0.1:8080/phpmyadmin/scripts/setup.php", host: "52.3.119.149"
+2015/11/20 17:54:04 [error] 8044#0: *238 connect() failed (111: Connection refused) while connecting to upstream, client: 104.152.209.238, server: cmp.razo.cebedo.com, request: "GET //pma/scripts/setup.php HTTP/1.1", upstream: "http://127.0.0.1:8080/pma/scripts/setup.php", host: "52.3.119.149"
+2015/11/20 17:54:04 [error] 8044#0: *240 connect() failed (111: Connection refused) while connecting to upstream, client: 104.152.209.238, server: cmp.razo.cebedo.com, request: "GET //myadmin/scripts/setup.php HTTP/1.1", upstream: "http://127.0.0.1:8080/myadmin/scripts/setup.php", host: "52.3.119.149"
+2015/11/20 17:54:05 [error] 8044#0: *242 connect() failed (111: Connection refused) while connecting to upstream, client: 104.152.209.238, server: cmp.razo.cebedo.com, request: "GET //MyAdmin/scripts/setup.php HTTP/1.1", upstream: "http://127.0.0.1:8080/MyAdmin/scripts/setup.php", host: "52.3.119.149"
+2015/11/20 18:17:25 [error] 8044#0: *244 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 146.185.239.100, server: cmp.razo.cebedo.com, request: "GET http://24x7-allrequestsallowed.com/?PHPSESSID=aab45f4f00143TPMWHW%40N%5CE%5C%5D HTTP/1.1", upstream: "http://127.0.0.1:8080/?PHPSESSID=aab45f4f00143TPMWHW%40N%5CE%5C%5D", host: "24x7-allrequestsallowed.com"
+2015/11/20 23:15:36 [error] 8044#0: *248 connect() failed (111: Connection refused) while connecting to upstream, client: 194.72.112.130, server: cmp.razo.cebedo.com, request: "GET /manager/html HTTP/1.1", upstream: "http://127.0.0.1:8080/manager/html", host: "52.3.119.149"
+2015/11/21 01:44:35 [error] 8044#0: *251 connect() failed (111: Connection refused) while connecting to upstream, client: 218.55.21.53, server: cmp.razo.cebedo.com, request: "GET /manager/html HTTP/1.1", upstream: "http://127.0.0.1:8080/manager/html", host: "52.3.119.149:80"
+2015/11/21 03:13:07 [error] 8044#0: *255 connect() failed (111: Connection refused) while connecting to upstream, client: 185.49.14.190, server: cmp.razo.cebedo.com, request: "GET http://testp2.czar.bielawa.pl/testproxy.php HTTP/1.1", upstream: "http://127.0.0.1:8080/testproxy.php", host: "testp2.czar.bielawa.pl"
+2015/11/21 03:46:01 [error] 8044#0: *257 connect() failed (111: Connection refused) while connecting to upstream, client: 141.212.122.160, server: cmp.razo.cebedo.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "52.3.119.149"
+2015/11/21 10:32:38 [error] 8044#0: *260 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 202.109.143.18, server: cmp.razo.cebedo.com, request: "GET /manager/html HTTP/1.1", upstream: "http://127.0.0.1:8080/manager/html", host: "52.3.119.149"
+2015/11/21 20:56:16 [error] 8044#0: *262 connect() failed (111: Connection refused) while connecting to upstream, client: 169.54.233.126, server: cmp.razo.cebedo.com, request: "GET / HTTP/1.0", upstream: "http://127.0.0.1:8080/"
+2015/11/21 23:26:00 [error] 8044#0: *264 connect() failed (111: Connection refused) while connecting to upstream, client: 213.34.214.243, server: cmp.razo.cebedo.com, request: "POST /tmUnblock.cgi HTTP/1.1", upstream: "http://127.0.0.1:8080/tmUnblock.cgi", host: "52.3.119.149"
+2015/11/21 23:40:12 [error] 8044#0: *266 connect() failed (111: Connection refused) while connecting to upstream, client: 70.31.152.32, server: cmp.razo.cebedo.com, request: "POST /tmUnblock.cgi HTTP/1.1", upstream: "http://127.0.0.1:8080/tmUnblock.cgi", host: "52.3.119.149"
+2015/11/22 17:29:11 [error] 8044#0: *269 connect() failed (111: Connection refused) while connecting to upstream, client: 46.101.171.180, server: cmp.razo.cebedo.com, request: "GET /rom-0 HTTP/1.1", upstream: "http://127.0.0.1:8080/rom-0", host: "52.3.119.149"
+2015/11/22 20:09:10 [error] 8044#0: *273 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 40.78.145.48, server: cmp.razo.cebedo.com, request: "GET /CFIDE/administrator/ HTTP/1.1", upstream: "http://127.0.0.1:8080/CFIDE/administrator/", host: "52.3.119.149"
+2015/11/23 10:32:06 [notice] 8657#0: signal process started
+2015/11/23 13:08:07 [notice] 18926#0: signal process started
+2015/11/23 13:52:59 [notice] 27683#0: signal process started
+2015/11/23 14:15:25 [notice] 28788#0: signal process started
+2015/11/23 15:18:44 [error] 30856#0: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 122.3.168.18, server: cmp.razo.cebedo.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "cmp.razo.cebedo.com"
+2015/11/23 15:27:45 [notice] 31513#0: signal process started
+2015/11/23 17:04:07 [notice] 4321#0: signal process started
+2015/11/23 17:16:25 [notice] 5097#0: signal process started
+2015/11/23 17:21:08 [notice] 2377#0: signal process started
+2015/11/23 17:39:33 [notice] 3676#0: signal process started
+2015/11/23 17:41:19 [notice] 2320#0: signal process started
+2015/11/23 17:47:48 [error] 2704#0: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 122.3.168.18, server: cmp.razo.cebedo.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "cmp.razo.cebedo.com"
+2015/11/24 10:31:13 [notice] 5668#0: signal process started
+2015/11/24 10:55:43 [notice] 2388#0: signal process started
+2015/11/24 14:33:14 [notice] 3586#0: signal process started
+2015/11/24 14:38:01 [notice] 2381#0: signal process started
+2015/11/24 15:44:03 [notice] 3230#0: signal process started
+2015/11/24 15:46:54 [notice] 2376#0: signal process started
+2015/11/24 16:46:51 [notice] 3430#0: signal process started
+2015/11/24 16:51:52 [notice] 2382#0: signal process started
+2015/11/27 14:56:05 [notice] 6052#0: signal process started
+2015/11/27 15:09:13 [notice] 6803#0: signal process started
+2015/11/27 15:21:07 [notice] 2602#0: signal process started
+2015/12/01 13:39:48 [notice] 12343#0: signal process started
+2015/12/01 14:46:19 [notice] 13107#0: signal process started
+2015/12/01 15:31:30 [notice] 13674#0: signal process started
+2015/12/01 16:23:06 [notice] 14283#0: signal process started
+2015/12/02 10:57:40 [notice] 16987#0: signal process started
+2015/12/02 11:49:12 [notice] 17640#0: signal process started
+2015/12/03 11:56:54 [notice] 20966#0: signal process started
+2015/12/03 13:41:14 [notice] 21633#0: signal process started
+2015/12/03 13:53:58 [notice] 22075#0: signal process started
+2015/12/03 14:16:55 [notice] 22577#0: signal process started
+2015/12/03 14:26:00 [notice] 23043#0: signal process started
+2015/12/03 14:33:51 [notice] 23573#0: signal process started
+2015/12/04 15:55:04 [notice] 29809#0: signal process started
+2015/12/07 15:43:03 [notice] 7343#0: signal process started
+2015/12/07 16:00:51 [notice] 7796#0: signal process started
+2015/12/07 16:47:30 [notice] 8392#0: signal process started
+2015/12/07 17:12:45 [notice] 8924#0: signal process started
+2015/12/08 08:45:08 [notice] 15797#0: signal process started
+2015/12/08 10:17:12 [notice] 16542#0: signal process started
+2015/12/08 10:27:34 [notice] 17020#0: signal process started
+2015/12/08 11:03:34 [notice] 17828#0: signal process started
+2015/12/08 11:19:05 [notice] 18420#0: signal process started
+2015/12/08 16:43:38 [notice] 19748#0: signal process started
+2015/12/09 13:37:58 [notice] 30926#0: signal process started
+2015/12/09 14:47:42 [notice] 31685#0: signal process started
+2015/12/09 14:56:29 [notice] 32145#0: signal process started
+2015/12/10 10:04:35 [notice] 2209#0: signal process started
+2015/12/10 11:30:49 [emerg] 2821#0: invalid parameter "443" in /usr/local/nginx/conf/conf.d/nginx-proxy.conf:2
+2015/12/10 11:30:49 [emerg] 2825#0: invalid parameter "443" in /usr/local/nginx/conf/conf.d/nginx-proxy.conf:2
+2015/12/10 13:32:01 [emerg] 3099#0: invalid parameter "443" in /usr/local/nginx/conf/conf.d/nginx-proxy.conf:2
+2015/12/10 13:34:42 [emerg] 3416#0: invalid parameter "443" in /usr/local/nginx/conf/conf.d/nginx-proxy.conf:2
+2015/12/11 14:05:00 [emerg] 10101#0: invalid parameter "443" in /usr/local/nginx/conf/conf.d/nginx-proxy.conf:2
+2015/12/11 14:05:00 [emerg] 10105#0: invalid parameter "443" in /usr/local/nginx/conf/conf.d/nginx-proxy.conf:2
+2015/12/11 14:06:45 [notice] 10164#0: signal process started
+2015/12/11 14:38:41 [notice] 10393#0: signal process started
+2015/12/11 14:54:05 [notice] 10861#0: signal process started
