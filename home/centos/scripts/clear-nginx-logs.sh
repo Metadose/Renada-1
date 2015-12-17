@@ -10,5 +10,8 @@ sudo touch $NGINX_LOGS/error.log
 
 # Change permission to be writable by all.
 sudo chmod 666 -R $NGINX_LOGS/*.log
+
+# Restart the nginx server.
+sudo systemctl restart nginx
  
-echo "Nginx logs cleared"
+echo "Nginx logs cleared and restarted"
